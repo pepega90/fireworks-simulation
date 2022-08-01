@@ -1,4 +1,4 @@
-#include <raylib.h>
+#include "raylib.h"
 #include <math.h>
 #include <vector>
 #include <iostream>
@@ -41,7 +41,7 @@ int main()
 
     Color listColor[] = {YELLOW, GOLD, ORANGE, PINK, RED, MAROON, GREEN, LIME, BLUE, PURPLE, SKYBLUE, MAGENTA};
 
-    int sizeFireWorks = 400;
+    int sizeFireWorks = 250;
 
     bool shoot = false;
 
@@ -61,7 +61,7 @@ int main()
         ClearBackground(BLACK);
         BeginDrawing();
 
-        if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT) && !shoot)
+        if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON) && !shoot)
         {
             PlaySound(shoot_sfx);
             lpx = mousePos.x;
