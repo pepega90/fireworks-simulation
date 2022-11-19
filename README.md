@@ -6,6 +6,7 @@ made with C++ and raylib
 [Demo](https://famous-paletas-d3074d.netlify.app/)
 
 <img src="https://github.com/pepega90/fireworks-simulaton/blob/main/preview.gif" />
+
 [pepeg](https://lustrous-faun-7d31f7.netlify.app/)
 
 
